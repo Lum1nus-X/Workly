@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #f0f0f2;
+    color: #27272a;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+}
+
+.validation-error {
+    border-color: #dc2626 !important;
+}
+
+input[type="checkbox"].validation-error {
+    outline: 1px solid #dc2626;
+    outline-offset: 2px;
+}
